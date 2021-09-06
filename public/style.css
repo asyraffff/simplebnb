@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: black;
+    color: white;
+  }
+  
+  .space-list-heading {
+    margin: 1em;
+    font-size: 2.2em;
+    color: green;
+    font-weight: 600;
+  }
+  
+  .space-card {
+    margin: 2em;
+    line-height: 1.5;
+  }
+  
+  .space-name {
+    font-size: 2em;
+  }
+  
+  .space-description {
+    font-style: italic;
+    font-size: 1.4em;
+  }
+  
+  .space-price {
+    font-size: 1.4em;
+    font-weight: 600;
+  }
+  
+  .booking-link {
+    font-size: 1.8em;
+  }
+  
+  .booking-link a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .list-new-space-link {
+    margin: 1em;
+    font-size: 1.8em;
+  }
+  .list-new-space-link a {
+    text-decoration: none;
+    color: goldenrod;
+  }
+  
+  #header-text {
+    font-size: 3em;
+    padding: 1em;
+    flex-basis: 75vw;
+  }
+  
+  #sign-in-info {
+    font-size: 1.2em;
+    padding-right: 2em;
+  }
+  
+  #signin-signup-form {
+    width: 33vw;
+  }
+  
+  #signin-signup-form label, input, h3 {
+    padding: 1em;
+    margin: 1em;
+  }
+  
+  .form-heading {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 1em;
+  }
+  
+  .signin-form-field .booking-form-field {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .signin-form-field label {
+    flex-basis: 33%;
+  }
+  
+  .booking-form-field label {
+    flex-basis: 33%;
+  }
+  
+  .signin-form-field input {
+    flex-basis: 66%;
+  }  

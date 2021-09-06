@@ -1,0 +1,15 @@
+<% unless @spaces.empty? %>
+  <div class="spaces-list">
+    <div class="space-list-heading">All spaces</div>
+    <% @spaces.each do |space| %>
+      <div class="space-card">
+        <div class="space-name"><%= space.name %></div>
+        <div class="space-description"><%= space.description %></div>
+        <div class="space-price">£<%= space.price %> </div>
+        <div class="booking-link"><a href="/booking/new/<%= space.id %>">Book this space</a></div>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+
+<div class="list-new-space-link"><a href="spaces/new">List a Space</a></div>

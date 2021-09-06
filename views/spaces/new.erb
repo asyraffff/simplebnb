@@ -1,0 +1,22 @@
+<div style="margin:0 auto;width:75%;text-align:center">
+  <form action="/spaces/create" method="post" id="creating-space-form">
+    <div class="create-space-form-field">
+      <label for="name">Name</label><br>
+      <input type="text" id="name" name="name" required minlength="3" maxlength="140">
+      </div>
+      
+      <div class="create-space-form-field">
+        <label for="description">Description</label><br>
+        <textarea name="description" id="description" rows="6" cols="30" placeholder="Describe your space.." required maxlength="500"></textarea>
+      </div>
+
+      <div class="create-space-form-field">
+        <label for="price">Price per night(£)</label><br>
+        <input type="number" id="price" name="price" required>
+      </div>
+
+      <div class="create-space-form-field">
+        <input type="submit" value="List Space">
+        </div>
+  </form>
+</div>
